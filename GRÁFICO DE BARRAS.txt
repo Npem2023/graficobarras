@@ -1,0 +1,26 @@
+
+## NPEM - CONSULTORIA E CURSOS EM ESTATISTICA E MELHORAMENTO ##
+## UNIVERSIDADE FEDERAL DO PIAUÍ- CAMPUS CINOBELINA ELVAS ##
+
+## GRÁFICO DE BARRAS ##
+
+vendedor= c("Ana", "Alex", "Marcos", "Luís", "Júlia")
+vendas= c(40, 38,42,34,38)
+
+barplot(vendas~vendedor,
+        ylim=c(0,50),
+        main= "Total de vendas por vendedor",
+        xlab="Vendedor",
+        ylab="Vendas",
+        col=c("blue","red","yellow","pink","darkgreen"))
+
+box()
+
+##FUNÇÕES UTILIZADAS##
+
+## barplot = plotar o gráfico
+## ylim = limite do eixo Y
+## main = "titulo do gráfico"
+## xlab = "título do eixo Y"
+## ylab = "título do eixo Y
+## col = cor das barras do gráfico
